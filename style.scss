@@ -512,6 +512,117 @@ main {
       }
     }
   }
+  /*Outcomes section*/
+  .outcomes {
+    display: flex;
+    flex-direction: column;
+    // align-items: center;
+    justify-content: center;
+    padding: 1rem 1rem;
+    .text {
+      display: flex;
+      flex-direction: column;
+      gap: 2rem;
+      h2 {
+        font-size: 1.5rem;
+        color: #000;
+        font-family: bold-font;
+      }
+      .grid {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-areas:
+          "part-1"
+          "part-2"
+          "part-3"
+          "part-4"
+          "part-5"
+          "part-6";
+        gap: 1rem;
+        .part-1 {
+          grid-area: part-1;
+          h3 {
+            font-size: 1rem;
+            font-family: bold-font;
+          }
+          p {
+            font-size: 0.9rem;
+            padding: 0.6rem 0rem;
+          }
+        }
+        .part-2 {
+          grid-area: part-2;
+          h3 {
+            font-size: 1rem;
+            font-family: bold-font;
+          }
+          p {
+            font-size: 0.9rem;
+            padding: 0.6rem 0rem;
+          }
+        }
+        .part-3 {
+          grid-area: part-3;
+          h3 {
+            font-size: 1rem;
+            font-family: bold-font;
+          }
+          p {
+            font-size: 0.9rem;
+            padding: 0.6rem 0rem;
+          }
+        }
+        .part-4 {
+          grid-area: part-4;
+          h3 {
+            font-size: 1rem;
+            font-family: bold-font;
+          }
+          p {
+            font-size: 0.9rem;
+            padding: 0.6rem 0rem;
+          }
+        }
+        .part-5 {
+          grid-area: part-5;
+          h3 {
+            font-size: 1rem;
+            font-family: bold-font;
+          }
+          p {
+            font-size: 0.9rem;
+            padding: 0.6rem 0rem;
+          }
+        }
+        .part-6 {
+          grid-area: part-6;
+          h3 {
+            font-size: 1rem;
+            font-family: bold-font;
+          }
+          p {
+            font-size: 0.9rem;
+            padding: 0.6rem 0rem;
+          }
+        }
+      }
+    }
+    .image {
+      width: 100%;
+      background-image: url(./Images/section-1-background.webp);
+      background-position: center;
+      background-size: cover;
+      border-radius: 1rem;
+      figure {
+        width: 100%;
+        img {
+          width: 100%;
+          object-fit: cover;
+          border-radius: 1rem;
+        }
+      }
+    }
+  }
 }
 
 /*Responsive starts here*/
@@ -887,6 +998,118 @@ main {
         }
       }
     }
+    /*Outcomes section*/
+    .outcomes {
+      width: 100%;
+      display: flex;
+      flex-direction: row-reverse;
+      // align-items: center;
+      justify-content: center;
+      padding: 1rem 5rem;
+      gap: 1rem;
+      .text {
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+        h2 {
+          font-size: 1.5rem;
+          color: #000;
+          font-family: bold-font;
+        }
+        .grid {
+          display: grid;
+          grid-template-columns: 1fr 1fr;
+          grid-template-rows: 1fr 1fr;
+          grid-template-areas:
+            "part-1 part-2"
+            "part-3 part-4"
+            "part-5 part-6";
+          gap: 1rem;
+          .part-1 {
+            grid-area: part-1;
+            h3 {
+              font-size: 1rem;
+              font-family: bold-font;
+            }
+            p {
+              font-size: 0.9rem;
+              padding: 0.6rem 0rem;
+            }
+          }
+          .part-2 {
+            grid-area: part-2;
+            h3 {
+              font-size: 1rem;
+              font-family: bold-font;
+            }
+            p {
+              font-size: 0.9rem;
+              padding: 0.6rem 0rem;
+            }
+          }
+          .part-3 {
+            grid-area: part-3;
+            h3 {
+              font-size: 1rem;
+              font-family: bold-font;
+            }
+            p {
+              font-size: 0.9rem;
+              padding: 0.6rem 0rem;
+            }
+          }
+          .part-4 {
+            grid-area: part-4;
+            h3 {
+              font-size: 1rem;
+              font-family: bold-font;
+            }
+            p {
+              font-size: 0.9rem;
+              padding: 0.6rem 0rem;
+            }
+          }
+          .part-5 {
+            grid-area: part-5;
+            h3 {
+              font-size: 1rem;
+              font-family: bold-font;
+            }
+            p {
+              font-size: 0.9rem;
+              padding: 0.6rem 0rem;
+            }
+          }
+          .part-6 {
+            grid-area: part-6;
+            h3 {
+              font-size: 1rem;
+              font-family: bold-font;
+            }
+            p {
+              font-size: 0.9rem;
+              padding: 0.6rem 0rem;
+            }
+          }
+        }
+      }
+      .image {
+        width: 50%;
+        background-image: url(./Images/section-1-background.webp);
+        background-position: center;
+        background-size: cover;
+        border-radius: 1rem;
+        figure {
+          width: 100%;
+          img {
+            width: 100%;
+            object-fit: cover;
+            border-radius: 1rem;
+          }
+        }
+      }
+    }
   }
 }
 @media (min-width: 1500px) {
@@ -988,5 +1211,117 @@ main {
         }
       }
     }
+    /*Outcomes section*/
+      .outcomes {
+        width: 100%;
+        display: flex;
+        flex-direction: row-reverse;
+        // align-items: center;
+        justify-content: center;
+        padding: 1rem 5rem;
+        gap: 2rem;
+        .text {
+          width: 50%;
+          display: flex;
+          flex-direction: column;
+          gap: 2rem;
+          h2 {
+            font-size: 3rem;
+            color: #000;
+            font-family: bold-font;
+          }
+          .grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            grid-template-rows: 1fr 1fr;
+            grid-template-areas:
+              "part-1 part-2"
+              "part-3 part-4"
+              "part-5 part-6";
+            gap: 2rem;
+            .part-1 {
+              grid-area: part-1;
+              h3 {
+                font-size: 2rem;
+                font-family: bold-font;
+              }
+              p {
+                font-size: 1.5rem;
+                padding: 0.6rem 0rem;
+              }
+            }
+            .part-2 {
+              grid-area: part-2;
+              h3 {
+                font-size: 2rem;
+                font-family: bold-font;
+              }
+              p {
+                font-size: 1.5rem;
+                padding: 0.6rem 0rem;
+              }
+            }
+            .part-3 {
+              grid-area: part-3;
+              h3 {
+                font-size: 2rem;
+                font-family: bold-font;
+              }
+              p {
+                font-size: 1.5rem;
+                padding: 0.6rem 0rem;
+              }
+            }
+            .part-4 {
+              grid-area: part-4;
+              h3 {
+                font-size: 2rem;
+                font-family: bold-font;
+              }
+              p {
+                font-size: 1.5rem;
+                padding: 0.6rem 0rem;
+              }
+            }
+            .part-5 {
+              grid-area: part-5;
+              h3 {
+                font-size: 2rem;
+                font-family: bold-font;
+              }
+              p {
+                font-size: 1.5rem;
+                padding: 0.6rem 0rem;
+              }
+            }
+            .part-6 {
+              grid-area: part-6;
+              h3 {
+                font-size: 2rem;
+                font-family: bold-font;
+              }
+              p {
+                font-size: 1.5rem;
+                padding: 0.6rem 0rem;
+              }
+            }
+          }
+        }
+        .image {
+          width: 50%;
+          background-image: url(./Images/section-1-background.webp);
+          background-position: center;
+          background-size: cover;
+          border-radius: 1rem;
+          figure {
+            width: 100%;
+            img {
+              width: 100%;
+              object-fit: cover;
+              border-radius: 1rem;
+            }
+          }
+        }
+      }
   }
 }
