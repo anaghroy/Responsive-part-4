@@ -132,6 +132,149 @@ main {
       }
     }
   }
+  /*Creative section*/
+  .creative {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 1rem 1rem;
+    .content {
+      display: flex;
+      flex-direction: column;
+      h1 {
+        font-family: bold-font;
+        font-size: 1.7rem;
+        text-align: start;
+        padding: 2rem 0rem;
+        .one {
+          color: #ff6375;
+          font-family: bold-font;
+        }
+        .two {
+          color: #fda801;
+          font-family: bold-font;
+        }
+        .three {
+          color: #00b4a9;
+          font-family: bold-font;
+        }
+      }
+      .grid {
+        width: 100%;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-areas:
+          "top"
+          "center"
+          "right";
+        gap: 1rem;
+        .top {
+          width: 100%;
+          height: 31rem;
+          grid-area: top;
+          background-color: #fc8eae;
+          background-image: url(./Images/cards/card-1.webp);
+          background-position: center;
+          background-size: cover;
+          border-radius: 1rem;
+          .text {
+            display: flex;
+            flex-direction: column;
+            gap: 0.5rem;
+            font-family: font1;
+            font-size: 1rem;
+            padding: 1rem 1rem;
+            color: #000;
+            .icons {
+              display: flex;
+              flex-direction: row;
+              gap: 0.5rem;
+              font-family: bold-font;
+              font-size: 1.5rem;
+            }
+          }
+          .card-2 {
+            width: 20%;
+            margin-left: 1rem;
+          }
+          .card-3 {
+            width: 20%;
+            margin-left: 9rem;
+          }
+          .card-4 {
+            width: 100%;
+          }
+        }
+        .center {
+          width: 100%;
+          height: 31rem;
+          grid-area: center;
+          background-image: url(./Images/cards/card-2.webp);
+          background-position: center;
+          background-size: cover;
+          border-radius: 1rem;
+          position: relative;
+          .text {
+            display: flex;
+            flex-direction: column;
+            gap: 0.5rem;
+            font-family: font1;
+            font-size: 1rem;
+            padding: 1rem 1rem;
+            color: #000;
+            .icons {
+              display: flex;
+              flex-direction: row;
+              gap: 0.5rem;
+              font-family: bold-font;
+              font-size: 1.5rem;
+            }
+          }
+          .card-1 {
+            width: 20%;
+            margin-left: 1rem;
+            margin-top: 9rem;
+          }
+          .card-2 {
+            width: 20%;
+            margin-top: 15rem;
+            margin-left: 4rem;
+            position: absolute;
+          }
+          .card-3 {
+            width: 20%;
+            margin-left: 8rem;
+          }
+        }
+        .right {
+          width: 100%;
+          height: 31rem;
+          grid-area: right;
+          background-image: url(./Images/cards/card-3withbackground.webp);
+          background-position: center;
+          background-size: cover;
+          border-radius: 1rem;
+          .text {
+            display: flex;
+            flex-direction: column;
+            gap: 0.5rem;
+            font-family: font1;
+            font-size: 1rem;
+            padding: 1rem 1rem;
+            color: #000;
+            .icons {
+              display: flex;
+              flex-direction: row;
+              gap: 0.5rem;
+              font-family: bold-font;
+              font-size: 1.5rem;
+            }
+          }
+        }
+      }
+    }
+  }
 }
 /*Responsive starts here*/
 @media (min-width: 1000px) {
@@ -170,6 +313,105 @@ main {
             transform: translate(-50%, -50%);
             img {
               width: 2.5rem;
+            }
+          }
+        }
+      }
+    }
+    /*Creative section*/
+    .creative {
+      .content {
+        flex-direction: column;
+        padding: 2rem 5rem;
+        h1 {
+          font-size: 3rem;
+        }
+        .grid {
+          width: 100%;
+          display: grid;
+          grid-template-columns: 1fr 1fr 1fr;
+          grid-template-areas: "top center right";
+          gap: 1rem;
+          .top {
+            padding: 1rem 1rem;
+            width: 100%;
+            height: 35rem;
+            grid-area: top;
+            background-color: #fc8eae;
+            background-image: url(./Images/cards/card-1.webp);
+            background-position: center;
+            background-size: cover;
+            border-radius: 1rem;
+            .text {
+              display: flex;
+              flex-direction: column;
+              gap: 0.5rem;
+              font-family: font1;
+              font-size: 1rem;
+              padding: 1rem 1rem;
+              color: #000;
+              .icons {
+                display: flex;
+                flex-direction: row;
+                gap: 0.5rem;
+                font-family: bold-font;
+                font-size: 1.5rem;
+              }
+            }
+            img {
+              width: 100%;
+            }
+          }
+          .center {
+            padding: 1rem 1rem;
+            width: 100%;
+            height: 35rem;
+            grid-area: center;
+            background-image: url(./Images/cards/card-2.webp);
+            background-position: center;
+            background-size: cover;
+            border-radius: 1rem;
+            .text {
+              display: flex;
+              flex-direction: column;
+              gap: 0.5rem;
+              font-family: font1;
+              font-size: 1rem;
+              padding: 1rem 1rem;
+              color: #000;
+              .icons {
+                display: flex;
+                flex-direction: row;
+                gap: 0.5rem;
+                font-family: bold-font;
+                font-size: 1.5rem;
+              }
+            }
+          }
+          .right {
+            padding: 1rem 1rem;
+            width: 100%;
+            height: 35rem;
+            grid-area: right;
+            background-image: url(./Images/cards/card-3withbackground.webp);
+            background-position: center;
+            background-size: cover;
+            border-radius: 1rem;
+            .text {
+              display: flex;
+              flex-direction: column;
+              gap: 0.5rem;
+              font-family: font1;
+              font-size: 1rem;
+              padding: 1rem 1rem;
+              color: #000;
+              .icons {
+                display: flex;
+                flex-direction: row;
+                gap: 0.5rem;
+                font-family: bold-font;
+                font-size: 1.5rem;
+              }
             }
           }
         }
