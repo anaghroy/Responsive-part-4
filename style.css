@@ -1173,6 +1173,61 @@ main .bottom .center {
   font-size: 0.8rem;
   padding: 1rem 2rem;
 }
+main .footer {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  align-items: center;
+  justify-content: center;
+  padding: 4rem 1rem;
+}
+main .footer h6 {
+  font-size: 2rem;
+  font-family: extra-bold-font;
+}
+main .footer .get {
+  border-radius: 5rem;
+  border: 0.01rem solid #a73ef9;
+  padding: 1rem 4rem;
+  background-color: #a73ef9;
+  display: flex;
+  flex-direction: row;
+  gap: 0.5rem;
+  text-align: center;
+  font-size: 0.9rem;
+  color: #fff;
+  font-family: demi-bold-font;
+}
+main .footer .get img {
+  width: 1.5rem;
+}
+main .footer .icon {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+}
+main .footer .icon a {
+  text-decoration: none;
+  font-family: bold-font;
+  color: #000;
+  font-size: 0.6rem;
+}
+main .footer p {
+  font-size: 0.6rem;
+  text-align: center;
+  color: #000;
+}
+main .footer .foot {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+}
+main .footer .foot a {
+  text-decoration: none;
+  font-family: bold-font;
+  color: #000;
+  font-size: 0.6rem;
+}
 
 /*Responsive starts here*/
 @media (min-width: 1000px) {
@@ -2478,5 +2533,60 @@ main .bottom .center {
     text-align: center;
     font-size: 1rem;
     padding: 1rem 2rem;
+  }
+  main .footer {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    align-items: center;
+    justify-content: center;
+    padding: 4rem 1rem;
+  }
+  main .footer h6 {
+    font-size: 2rem;
+    font-family: extra-bold-font;
+  }
+  main .footer .get {
+    border-radius: 5rem;
+    border: 0.01rem solid #a73ef9;
+    padding: 1rem 4rem;
+    background-color: #a73ef9;
+    display: flex;
+    flex-direction: row;
+    gap: 0.5rem;
+    text-align: center;
+    font-size: 0.9rem;
+    color: #fff;
+    font-family: demi-bold-font;
+  }
+  main .footer .get img {
+    width: 1.5rem;
+  }
+  main .footer .icon {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+  }
+  main .footer .icon a {
+    text-decoration: none;
+    font-family: bold-font;
+    color: #000;
+    font-size: 1rem;
+  }
+  main .footer p {
+    font-size: 1rem;
+    text-align: center;
+    color: #000;
+  }
+  main .footer .foot {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+  }
+  main .footer .foot a {
+    text-decoration: none;
+    font-family: bold-font;
+    color: #000;
+    font-size: 0.9rem;
   }
 }/*# sourceMappingURL=style.css.map */

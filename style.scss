@@ -1249,6 +1249,62 @@ main {
       padding: 1rem 2rem;
     }
   }
+  .footer {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    align-items: center;
+    justify-content: center;
+    padding: 4rem 1rem;
+    h6 {
+      font-size: 2rem;
+      font-family: extra-bold-font;
+    }
+    .get {
+      border-radius: 5rem;
+      border: 0.01rem solid #a73ef9;
+      padding: 1rem 4rem;
+      background-color: #a73ef9;
+      display: flex;
+      flex-direction: row;
+      gap: 0.5rem;
+      text-align: center;
+      font-size: 0.9rem;
+      color: #fff;
+      font-family: demi-bold-font;
+      img {
+        width: 1.5rem;
+      }
+    }
+    .icon {
+      display: flex;
+      flex-direction: row;
+      gap: 1rem;
+      a {
+        text-decoration: none;
+        font-family: bold-font;
+        color: #000;
+        font-size: 0.6rem;
+      }
+    }
+    p{
+      font-size: 0.6rem;
+      text-align: center;
+      color: #000;
+    }
+    .foot{
+      display: flex;
+      flex-direction: row;
+      gap: 1rem;
+      
+      a {
+        text-decoration: none;
+        font-family: bold-font;
+        color: #000;
+        font-size: 0.6rem;
+      }
+    }
+  }
 }
 
 /*Responsive starts here*/
@@ -2635,5 +2691,61 @@ main {
         padding: 1rem 2rem;
       }
     }
+    .footer {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    align-items: center;
+    justify-content: center;
+    padding: 4rem 1rem;
+    h6 {
+      font-size: 2rem;
+      font-family: extra-bold-font;
+    }
+    .get {
+      border-radius: 5rem;
+      border: 0.01rem solid #a73ef9;
+      padding: 1rem 4rem;
+      background-color: #a73ef9;
+      display: flex;
+      flex-direction: row;
+      gap: 0.5rem;
+      text-align: center;
+      font-size: 0.9rem;
+      color: #fff;
+      font-family: demi-bold-font;
+      img {
+        width: 1.5rem;
+      }
+    }
+    .icon {
+      display: flex;
+      flex-direction: row;
+      gap: 1rem;
+      a {
+        text-decoration: none;
+        font-family: bold-font;
+        color: #000;
+        font-size: 1rem;
+      }
+    }
+    p{
+      font-size: 1rem;
+      text-align: center;
+      color: #000;
+    }
+    .foot{
+      display: flex;
+      flex-direction: row;
+      gap: 1rem;
+      
+      a {
+        text-decoration: none;
+        font-family: bold-font;
+        color: #000;
+        font-size: 0.9rem;
+      }
+    }
+  }
   }
 }
