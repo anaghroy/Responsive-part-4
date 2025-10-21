@@ -1177,7 +1177,8 @@ main {
       grid-template-columns: repeat(2, 1fr); // 2 items per row
       gap: 0.5rem 1rem; // row and column gaps
       align-items: center;
-      justify-items: start;
+      justify-items: center;
+      justify-content: space-around;
 
       .one,
       .two,
@@ -1203,6 +1204,49 @@ main {
         grid-column: 1 / -1; // make it span across both columns
         justify-content: center;
       }
+    }
+  }
+  /*Together section*/
+  .bottom {
+    display: flex;
+    flex-direction: column;
+    padding: 2rem 1.5rem;
+    gap: 2rem;
+    .center-content {
+      background-image: url(./Images/footer.webp);
+      background-position: center;
+      background-size: cover;
+      width: 100%;
+      height: 25rem;
+      border-radius: 1rem;
+      position: relative;
+      .heading {
+        text-align: center;
+        font-size: 2rem;
+        color: #f0db1d;
+        font-family: extra-bold-font;
+        position: absolute;
+        margin-top: 50%;
+      }
+      .down-text {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        font-size: 1rem;
+        background-color: #18181b;
+        color: #f0db1d;
+        border-radius: 1rem;
+        position: absolute;
+        margin-top: 100%;
+        padding: 0.5rem 1rem;
+      }
+    }
+    .center {
+      text-align: center;
+      font-size: 0.8rem;
+      padding: 1rem 2rem;
     }
   }
 }
@@ -1593,7 +1637,7 @@ main {
         width: 50%;
         display: flex;
         flex-direction: column;
-        
+
         gap: 2rem;
         h2 {
           font-size: 1.5rem;
@@ -2274,6 +2318,56 @@ main {
         }
       }
     }
+    /*Together section*/
+    .bottom {
+      display: flex;
+      flex-direction: column;
+      padding: 2rem 1.5rem;
+      gap: 2rem;
+      .center-content {
+        background-image: url(./Images/footer.webp);
+        background-position: center;
+        background-size: cover;
+        width: 100%;
+        height: 45rem;
+        border-radius: 1rem;
+        position: relative;
+        .heading {
+          position: absolute;
+          margin-top: 30%;
+          margin-left: 10%;
+          h2 {
+            font-size: 6rem;
+            font-family: extra-bold-font;
+            color: #f0db1d;
+            text-align: center;
+          }
+        }
+        .down-text {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: center;
+          border-radius: 1rem;
+          position: absolute;
+          // margin-top: 60%;
+          padding: 2rem 1rem;
+          margin: 35rem 6rem;
+          p {
+            text-align: center;
+            font-size: 1.5rem;
+            background-color: #18181b;
+            color: #f0db1d;
+          }
+        }
+      }
+      .center {
+        margin: 2rem 2rem;
+        text-align: center;
+        font-size: 1rem;
+        padding: 1rem 2rem;
+      }
+    }
   }
 }
 @media (min-width: 1500px) {
@@ -2489,6 +2583,56 @@ main {
             border-radius: 1rem;
           }
         }
+      }
+    }
+    /*Together section*/
+    .bottom {
+      display: flex;
+      flex-direction: column;
+      padding: 2rem 1.5rem;
+      gap: 2rem;
+      .center-content {
+        background-image: url(./Images/footer.webp);
+        background-position: center;
+        background-size: cover;
+        width: 100%;
+        height: 45rem;
+        border-radius: 1rem;
+        position: relative;
+        .heading {
+          position: absolute;
+          margin-top: 30%;
+          margin-left: 20%;
+          h2 {
+            font-size: 6rem;
+            font-family: extra-bold-font;
+            color: #f0db1d;
+            text-align: center;
+          }
+        }
+        .down-text {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: center;
+          border-radius: 1rem;
+          position: absolute;
+          // margin-top: 60%;
+          padding: 2rem 1rem;
+          margin: 35rem 6rem;
+          p {
+            text-align: center;
+            font-size: 1.5rem;
+            background-color: #18181b;
+            color: #f0db1d;
+          }
+        }
+      }
+      .center {
+        margin: 2rem 2rem;
+        text-align: center;
+        font-size: 1rem;
+        padding: 1rem 2rem;
       }
     }
   }
