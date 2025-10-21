@@ -349,7 +349,9 @@ main {
         //  background-color: red;
         img {
           width: 100%;
-          margin-left: 1rem;
+          // margin-left: 1rem;
+          margin: 0rem 1rem;
+          border-radius: 1rem;
         }
       }
     }
@@ -493,7 +495,7 @@ main {
         h1 {
           font-size: 1.5rem;
           padding: 1rem 1rem;
-          font-family: ragular-font;
+          font-family: bold-font;
         }
       }
       .part-9 {
@@ -2460,7 +2462,7 @@ main {
             justify-content: center;
             position: absolute;
 
-            top: 90%;
+            top: 60%;
             left: 50%;
             transform: translate(-50%, -50%);
             img {
@@ -2522,8 +2524,8 @@ main {
           img {
             width: 50%;
             border-radius: 1rem;
-            margin-left: 67.4rem;
-            margin-top: -18.2rem;
+            margin-left: 66.4rem;
+            margin-top: -18.1rem;
             position: absolute;
           }
         }
