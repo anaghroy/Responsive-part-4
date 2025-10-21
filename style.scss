@@ -493,7 +493,7 @@ main {
         h1 {
           font-size: 1.5rem;
           padding: 1rem 1rem;
-          font-family: bold-font;
+          font-family: ragular-font;
         }
       }
       .part-9 {
@@ -620,6 +620,588 @@ main {
           object-fit: cover;
           border-radius: 1rem;
         }
+      }
+    }
+  }
+  /*Learning section*/
+  .global {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 1rem 1rem;
+    .grid {
+      width: 100%;
+      display: grid;
+      grid-template-columns: 1fr;
+      grid-template-areas:
+        "part-1"
+        "part-2"
+        "part-3"
+        "part-4"
+        "part-5"
+        "part-6"
+        "part-7"
+        "part-8"
+        "part-9"
+        "part-10"
+        "part-11"
+        "part-12"
+        "part-13"
+        "part-14";
+      gap: 1rem;
+
+      .part-1 {
+        display: flex;
+        flex-direction: row;
+        gap: 0.1rem;
+        grid-area: part-1;
+        border-radius: 0.8rem;
+        background-color: #85e68b;
+        // width: 71%;
+        border-radius: 0.5rem;
+        .image {
+          display: flex;
+          flex-direction: row;
+          width: 40%;
+          height: 75%;
+          // background-color: red;
+          padding: 1rem 1rem;
+
+          img {
+            width: 100%;
+            border-radius: 0.5rem;
+          }
+        }
+        .text-div {
+          display: flex;
+          flex-direction: row;
+          width: 50%;
+          padding: 1rem 0rem;
+          .text {
+            width: fit-content;
+            display: flex;
+            flex-direction: column;
+            gap: 0.5rem;
+          }
+        }
+      }
+      .part-2 {
+        grid-area: part-2;
+        display: flex;
+        flex-direction: row;
+        gap: 0.1rem;
+        border-radius: 0.8rem;
+        background-color: #deff9a;
+        // width: 71%;
+        border-radius: 0.5rem;
+        .image {
+          display: flex;
+          flex-direction: row;
+          width: 40%;
+          height: 75%;
+          // background-color: red;
+          padding: 1rem 1rem;
+
+          img {
+            width: 100%;
+            border-radius: 0.5rem;
+          }
+        }
+        .text-div {
+          display: flex;
+          flex-direction: row;
+          width: 50%;
+          padding: 1rem 0rem;
+          .text {
+            width: fit-content;
+            display: flex;
+            flex-direction: column;
+            gap: 0.5rem;
+            h6 {
+              font-size: 0.9rem;
+            }
+          }
+        }
+      }
+      .part-3 {
+        grid-area: part-3;
+        display: flex;
+        flex-direction: row;
+        gap: 0.1rem;
+        border-radius: 0.8rem;
+        background-color: rgb(220, 173, 249);
+        // width: 71%;
+        border-radius: 0.5rem;
+        .image {
+          display: flex;
+          flex-direction: row;
+          width: 40%;
+          height: 75%;
+          // background-color: red;
+          padding: 1rem 1rem;
+
+          img {
+            width: 100%;
+            border-radius: 0.5rem;
+          }
+        }
+        .text-div {
+          display: flex;
+          flex-direction: row;
+          width: 50%;
+          padding: 1rem 0rem;
+          .text {
+            width: fit-content;
+            display: flex;
+            flex-direction: column;
+            gap: 0.5rem;
+            h6 {
+              font-size: 0.9rem;
+            }
+          }
+        }
+      }
+      .part-4 {
+        grid-area: part-4;
+        display: flex;
+        flex-direction: row;
+        gap: 0.1rem;
+        border-radius: 0.8rem;
+        background-color: rgb(229, 211, 255);
+        // width: 71%;
+        border-radius: 0.5rem;
+        .image {
+          display: flex;
+          flex-direction: row;
+          width: 40%;
+          height: 35%;
+          // background-color: red;
+          padding: 1rem 1rem;
+
+          img {
+            width: 100%;
+            border-radius: 0.5rem;
+          }
+        }
+        .text-div {
+          display: flex;
+          flex-direction: row;
+          width: 50%;
+          padding: 1rem 0rem;
+          .text {
+            width: fit-content;
+            display: flex;
+            flex-direction: column;
+            gap: 0.5rem;
+            p {
+              font-size: 1.2rem;
+            }
+            h6 {
+              font-size: 1rem;
+            }
+          }
+        }
+      }
+      .part-5 {
+        grid-area: part-5;
+
+        display: flex;
+        flex-direction: row;
+        gap: 0.1rem;
+        border-radius: 0.8rem;
+        background-color: rgb(243, 77, 31);
+        // width: 71%;
+        border-radius: 0.5rem;
+        .image {
+          display: flex;
+          flex-direction: row;
+          width: 40%;
+
+          // background-color: red;
+          padding: 1rem 1rem;
+
+          img {
+            width: 100%;
+            border-radius: 0.5rem;
+          }
+        }
+        .text-div {
+          display: flex;
+          flex-direction: row;
+          width: 50%;
+          padding: 1rem 0rem;
+          .text {
+            width: fit-content;
+            display: flex;
+            flex-direction: column;
+            gap: 0.5rem;
+            p {
+              color: #fff;
+              font-size: 1.5rem;
+            }
+            h6 {
+              color: #fff;
+              font-size: 0.8rem;
+            }
+          }
+        }
+      }
+
+      .part-6 {
+        grid-area: part-6;
+        display: flex;
+        flex-direction: row;
+        gap: 0.1rem;
+        border-radius: 0.8rem;
+        background-color: rgb(155, 223, 219);
+        // width: 71%;
+        border-radius: 0.5rem;
+        .image {
+          display: flex;
+          flex-direction: row;
+          width: 40%;
+          height: 35%;
+          // background-color: red;
+          padding: 1rem 1rem;
+
+          img {
+            width: 100%;
+            border-radius: 0.5rem;
+          }
+        }
+        .text-div {
+          display: flex;
+          flex-direction: row;
+          width: 50%;
+          padding: 1rem 0rem;
+          .text {
+            width: fit-content;
+            display: flex;
+            flex-direction: column;
+            gap: 0.5rem;
+          }
+        }
+      }
+      .part-7 {
+        grid-area: part-7;
+        display: flex;
+        flex-direction: row;
+        gap: 0.1rem;
+        border-radius: 0.8rem;
+        background-color: rgb(150, 212, 112);
+        // width: 71%;
+        border-radius: 0.5rem;
+        .image {
+          display: flex;
+          flex-direction: row;
+          width: 40%;
+
+          // background-color: red;
+          padding: 1rem 1rem;
+
+          img {
+            width: 100%;
+            border-radius: 0.5rem;
+          }
+        }
+        .text-div {
+          display: flex;
+          flex-direction: row;
+          width: 50%;
+          padding: 1rem 0rem;
+          .text {
+            width: fit-content;
+            display: flex;
+            flex-direction: column;
+            gap: 0.5rem;
+          }
+        }
+      }
+      .part-8 {
+        grid-area: part-8;
+        display: flex;
+        flex-direction: row;
+        gap: 0.1rem;
+        border-radius: 0.8rem;
+        background-color: rgb(243, 214, 130);
+        // width: 71%;
+        border-radius: 0.5rem;
+        .image {
+          display: flex;
+          flex-direction: row;
+          width: 40%;
+          height: 35%;
+          // background-color: red;
+          padding: 1rem 1rem;
+
+          img {
+            width: 100%;
+            border-radius: 0.5rem;
+          }
+        }
+        .text-div {
+          display: flex;
+          flex-direction: row;
+          width: 50%;
+          padding: 1rem 0rem;
+          .text {
+            width: fit-content;
+            display: flex;
+            flex-direction: column;
+            gap: 0.5rem;
+          }
+        }
+      }
+
+      .part-9 {
+        grid-area: part-9;
+        display: flex;
+        flex-direction: row;
+        gap: 0.1rem;
+        border-radius: 0.8rem;
+        background-color: rgb(243, 214, 130);
+        // width: 71%;
+        border-radius: 0.5rem;
+        .image {
+          display: flex;
+          flex-direction: row;
+          width: 40%;
+
+          // background-color: red;
+          padding: 1rem 1rem;
+
+          img {
+            width: 100%;
+            border-radius: 0.5rem;
+          }
+        }
+        .text-div {
+          display: flex;
+          flex-direction: row;
+          width: 50%;
+          padding: 1rem 0rem;
+          .text {
+            width: fit-content;
+            display: flex;
+            flex-direction: column;
+            gap: 0.5rem;
+          }
+        }
+      }
+
+      .part-10 {
+        grid-area: part-10;
+        display: flex;
+        flex-direction: row;
+        gap: 0.1rem;
+        border-radius: 0.8rem;
+        background-color: rgb(220, 173, 249);
+        // width: 71%;
+        border-radius: 0.5rem;
+        .image {
+          display: flex;
+          flex-direction: row;
+          width: 40%;
+
+          // background-color: red;
+          padding: 1rem 1rem;
+
+          img {
+            width: 100%;
+            border-radius: 0.5rem;
+          }
+        }
+        .text-div {
+          display: flex;
+          flex-direction: row;
+          width: 50%;
+          padding: 1rem 0rem;
+          .text {
+            width: fit-content;
+            display: flex;
+            flex-direction: column;
+            gap: 0.5rem;
+          }
+        }
+      }
+      .part-11 {
+        grid-area: part-11;
+        display: flex;
+        flex-direction: row;
+        gap: 0.1rem;
+        border-radius: 0.8rem;
+        background-color: rgb(241, 163, 187);
+        // width: 71%;
+        border-radius: 0.5rem;
+        .image {
+          display: flex;
+          flex-direction: row;
+          width: 40%;
+
+          // background-color: red;
+          padding: 1rem 1rem;
+
+          img {
+            width: 100%;
+            border-radius: 0.5rem;
+          }
+        }
+        .text-div {
+          display: flex;
+          flex-direction: row;
+          width: 50%;
+          padding: 1rem 0rem;
+          .text {
+            width: fit-content;
+            display: flex;
+            flex-direction: column;
+            gap: 0.5rem;
+          }
+        }
+      }
+      .part-12 {
+        grid-area: part-12;
+        display: flex;
+        flex-direction: row;
+        gap: 0.1rem;
+        border-radius: 0.8rem;
+        background-color: rgb(244, 196, 169);
+        // width: 71%;
+        border-radius: 0.5rem;
+        .image {
+          display: flex;
+          flex-direction: row;
+          width: 40%;
+
+          // background-color: red;
+          padding: 1rem 1rem;
+
+          img {
+            width: 100%;
+            border-radius: 0.5rem;
+          }
+        }
+        .text-div {
+          display: flex;
+          flex-direction: row;
+          width: 50%;
+          padding: 1rem 0rem;
+          .text {
+            width: fit-content;
+            display: flex;
+            flex-direction: column;
+            gap: 0.5rem;
+          }
+        }
+      }
+      .part-13 {
+        grid-area: part-13;
+        display: flex;
+        flex-direction: row;
+        gap: 0.1rem;
+        border-radius: 0.8rem;
+        background-color: rgb(220, 173, 249);
+        // width: 71%;
+        border-radius: 0.5rem;
+        .image {
+          display: flex;
+          flex-direction: row;
+          width: 40%;
+          height: 35%;
+          // background-color: red;
+          padding: 1rem 1rem;
+
+          img {
+            width: 100%;
+            border-radius: 0.5rem;
+          }
+        }
+        .text-div {
+          display: flex;
+          flex-direction: row;
+          width: 50%;
+          padding: 1rem 0rem;
+          .text {
+            width: fit-content;
+            display: flex;
+            flex-direction: column;
+            gap: 0.5rem;
+            p {
+              font-size: 1.2rem;
+            }
+            h6 {
+              font-size: 0.8rem;
+            }
+          }
+        }
+      }
+      .part-14 {
+        grid-area: part-14;
+        display: flex;
+        flex-direction: row;
+        gap: 0.1rem;
+        border-radius: 0.8rem;
+        background-color: rgb(244, 200, 123);
+        // width: 71%;
+        border-radius: 0.5rem;
+        .image {
+          display: flex;
+          flex-direction: row;
+          width: 40%;
+
+          // background-color: red;
+          padding: 1rem 1rem;
+
+          img {
+            width: 100%;
+            border-radius: 0.5rem;
+          }
+        }
+        .text-div {
+          display: flex;
+          flex-direction: row;
+          width: 50%;
+          padding: 1rem 0rem;
+          .text {
+            width: fit-content;
+            display: flex;
+            flex-direction: column;
+            gap: 0.5rem;
+          }
+        }
+      }
+    }
+    /*Social media*/
+    .icons {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr); // 2 items per row
+      gap: 0.5rem 1rem; // row and column gaps
+      align-items: center;
+      justify-items: start;
+
+      .one,
+      .two,
+      .three,
+      .four,
+      .five {
+        display: flex; // image + text side by side
+        align-items: center;
+        gap: 0.5rem; // space between image and text
+
+        img {
+          width: 2rem;
+          height: auto;
+        }
+
+        p {
+          font-family: bold-font;
+          color: #000;
+        }
+      }
+      // Center the last item
+      .five {
+        grid-column: 1 / -1; // make it span across both columns
+        justify-content: center;
       }
     }
   }
@@ -1011,11 +1593,13 @@ main {
         width: 50%;
         display: flex;
         flex-direction: column;
+        
         gap: 2rem;
         h2 {
           font-size: 1.5rem;
           color: #000;
           font-family: bold-font;
+          text-align: center;
         }
         .grid {
           display: grid;
@@ -1110,6 +1694,586 @@ main {
         }
       }
     }
+    /*Learning section*/
+    .global {
+      display: flex;
+      flex-direction: column;
+      gap: 2rem;
+      padding: 6rem 5rem;
+      .grid {
+        width: 100%;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+        grid-template-areas:
+          "part-1 part-2 part-3"
+          "part-4 part-4 part-5"
+          "part-6 part-7 part-8"
+          "part-6 part-9 part-8"
+          "part-10 part-11 part-12"
+          "part-13 part-13 part-14";
+        gap: 0.6rem;
+
+        .part-1 {
+          display: flex;
+          flex-direction: row;
+          gap: 0.1rem;
+          grid-area: part-1;
+          border-radius: 0.8rem;
+          background-color: #85e68b;
+          // width: 71%;
+
+          border-radius: 0.5rem;
+          .image {
+            display: flex;
+            flex-direction: row;
+            width: 40%;
+            height: 75%;
+            // background-color: red;
+            padding: 1rem 1rem;
+
+            img {
+              width: 100%;
+              border-radius: 0.5rem;
+            }
+          }
+          .text-div {
+            display: flex;
+            flex-direction: row;
+            width: 50%;
+            padding: 1rem 0rem;
+            .text {
+              width: fit-content;
+              display: flex;
+              flex-direction: column;
+              gap: 0.5rem;
+            }
+          }
+        }
+        .part-2 {
+          grid-area: part-2;
+          display: flex;
+          flex-direction: row;
+          gap: 0.1rem;
+          border-radius: 0.8rem;
+          background-color: #deff9a;
+          // width: 71%;
+
+          border-radius: 0.5rem;
+          .image {
+            display: flex;
+            flex-direction: row;
+            width: 40%;
+            height: 75%;
+            // background-color: red;
+            padding: 1rem 1rem;
+
+            img {
+              width: 100%;
+              border-radius: 0.5rem;
+            }
+          }
+          .text-div {
+            display: flex;
+            flex-direction: row;
+            width: 50%;
+            padding: 1rem 0rem;
+            .text {
+              width: fit-content;
+              display: flex;
+              flex-direction: column;
+              gap: 0.5rem;
+              h6 {
+                font-size: 0.9rem;
+              }
+            }
+          }
+        }
+        .part-3 {
+          grid-area: part-3;
+          display: flex;
+          flex-direction: row;
+          gap: 0.1rem;
+          border-radius: 0.8rem;
+          background-color: rgb(220, 173, 249);
+          // width: 71%;
+
+          border-radius: 0.5rem;
+          .image {
+            display: flex;
+            flex-direction: row;
+            width: 40%;
+            height: 75%;
+            // background-color: red;
+            padding: 1rem 1rem;
+
+            img {
+              width: 100%;
+              border-radius: 0.5rem;
+            }
+          }
+          .text-div {
+            display: flex;
+            flex-direction: row;
+            width: 50%;
+            padding: 1rem 0rem;
+            .text {
+              width: fit-content;
+              display: flex;
+              flex-direction: column;
+              gap: 0.5rem;
+              h6 {
+                font-size: 0.9rem;
+              }
+            }
+          }
+        }
+        .part-4 {
+          grid-area: part-4;
+          display: flex;
+          flex-direction: row;
+          gap: 0.1rem;
+          border-radius: 0.8rem;
+          background-color: rgb(229, 211, 255);
+          // width: 71%;
+          // height: fit-content;
+          border-radius: 0.5rem;
+          .image {
+            display: flex;
+            flex-direction: row;
+            width: 40%;
+            height: 75%;
+            // background-color: red;
+            padding: 1rem 1rem;
+
+            img {
+              width: 100%;
+              border-radius: 0.5rem;
+            }
+          }
+          .text-div {
+            display: flex;
+            flex-direction: row;
+            width: 50%;
+            padding: 1rem 0rem;
+            .text {
+              width: fit-content;
+              display: flex;
+              flex-direction: column;
+              gap: 0.5rem;
+              p {
+                font-size: 1.2rem;
+              }
+              h6 {
+                font-size: 1rem;
+              }
+            }
+          }
+        }
+        .part-5 {
+          grid-area: part-5;
+
+          display: flex;
+          flex-direction: row;
+          gap: 0.1rem;
+          border-radius: 0.8rem;
+          background-color: rgb(243, 77, 31);
+          // width: 71%;
+          border-radius: 0.5rem;
+          .image {
+            display: flex;
+            flex-direction: row;
+            width: 40%;
+            height: 45%;
+            // background-color: red;
+            padding: 1rem 1rem;
+
+            img {
+              width: 100%;
+              border-radius: 0.5rem;
+            }
+          }
+          .text-div {
+            display: flex;
+            flex-direction: row;
+            width: 50%;
+            padding: 1rem 0rem;
+            .text {
+              width: fit-content;
+              display: flex;
+              flex-direction: column;
+              gap: 0.5rem;
+              p {
+                color: #fff;
+                font-size: 1.5rem;
+              }
+              h6 {
+                color: #fff;
+                font-size: 0.8rem;
+              }
+            }
+          }
+        }
+
+        .part-6 {
+          grid-area: part-6;
+          display: flex;
+          flex-direction: row;
+          gap: 0.1rem;
+          border-radius: 0.8rem;
+          background-color: rgb(155, 223, 219);
+          // width: 71%;
+          border-radius: 0.5rem;
+          .image {
+            display: flex;
+            flex-direction: row;
+            width: 40%;
+            height: 35%;
+            // background-color: red;
+            padding: 1rem 1rem;
+
+            img {
+              width: 100%;
+              border-radius: 0.5rem;
+            }
+          }
+          .text-div {
+            display: flex;
+            flex-direction: row;
+            width: 50%;
+            padding: 1rem 0rem;
+            .text {
+              width: fit-content;
+              display: flex;
+              flex-direction: column;
+              gap: 0.5rem;
+            }
+          }
+        }
+        .part-7 {
+          grid-area: part-7;
+          display: flex;
+          flex-direction: row;
+          gap: 0.1rem;
+          border-radius: 0.8rem;
+          background-color: rgb(150, 212, 112);
+          // width: 71%;
+          border-radius: 0.5rem;
+          .image {
+            display: flex;
+            flex-direction: row;
+            width: 40%;
+            height: 45%;
+            // background-color: red;
+            padding: 1rem 1rem;
+
+            img {
+              width: 100%;
+              border-radius: 0.5rem;
+            }
+          }
+          .text-div {
+            display: flex;
+            flex-direction: row;
+            width: 50%;
+            padding: 1rem 0rem;
+            .text {
+              width: fit-content;
+              display: flex;
+              flex-direction: column;
+              gap: 0.5rem;
+            }
+          }
+        }
+        .part-8 {
+          grid-area: part-8;
+          display: flex;
+          flex-direction: row;
+          gap: 0.1rem;
+          border-radius: 0.8rem;
+          background-color: rgb(243, 214, 130);
+          // width: 71%;
+          border-radius: 0.5rem;
+          .image {
+            display: flex;
+            flex-direction: row;
+            width: 40%;
+            height: 35%;
+            // background-color: red;
+            padding: 1rem 1rem;
+
+            img {
+              width: 100%;
+              border-radius: 0.5rem;
+            }
+          }
+          .text-div {
+            display: flex;
+            flex-direction: row;
+            width: 50%;
+            padding: 1rem 0rem;
+            .text {
+              width: fit-content;
+              display: flex;
+              flex-direction: column;
+              gap: 0.5rem;
+            }
+          }
+        }
+
+        .part-9 {
+          grid-area: part-9;
+          display: flex;
+          flex-direction: row;
+          gap: 0.1rem;
+          border-radius: 0.8rem;
+          background-color: rgb(243, 214, 130);
+          // width: 71%;
+          border-radius: 0.5rem;
+          .image {
+            display: flex;
+            flex-direction: row;
+            width: 40%;
+            height: 45%;
+            // background-color: red;
+            padding: 1rem 1rem;
+
+            img {
+              width: 100%;
+              border-radius: 0.5rem;
+            }
+          }
+          .text-div {
+            display: flex;
+            flex-direction: row;
+            width: 50%;
+            padding: 1rem 0rem;
+            .text {
+              width: fit-content;
+              display: flex;
+              flex-direction: column;
+              gap: 0.5rem;
+            }
+          }
+        }
+
+        .part-10 {
+          grid-area: part-10;
+          display: flex;
+          flex-direction: row;
+          gap: 0.1rem;
+          border-radius: 0.8rem;
+          background-color: rgb(220, 173, 249);
+          // width: 71%;
+          border-radius: 0.5rem;
+          .image {
+            display: flex;
+            flex-direction: row;
+            width: 40%;
+            height: 45%;
+            // background-color: red;
+            padding: 1rem 1rem;
+
+            img {
+              width: 100%;
+              border-radius: 0.5rem;
+            }
+          }
+          .text-div {
+            display: flex;
+            flex-direction: row;
+            width: 50%;
+            padding: 1rem 0rem;
+            .text {
+              width: fit-content;
+              display: flex;
+              flex-direction: column;
+              gap: 0.5rem;
+            }
+          }
+        }
+        .part-11 {
+          grid-area: part-11;
+          display: flex;
+          flex-direction: row;
+          gap: 0.1rem;
+          border-radius: 0.8rem;
+          background-color: rgb(241, 163, 187);
+          // width: 71%;
+          border-radius: 0.5rem;
+          .image {
+            display: flex;
+            flex-direction: row;
+            width: 40%;
+            height: 45%;
+            // background-color: red;
+            padding: 1rem 1rem;
+
+            img {
+              width: 100%;
+              border-radius: 0.5rem;
+            }
+          }
+          .text-div {
+            display: flex;
+            flex-direction: row;
+            width: 50%;
+            padding: 1rem 0rem;
+            .text {
+              width: fit-content;
+              display: flex;
+              flex-direction: column;
+              gap: 0.5rem;
+            }
+          }
+        }
+        .part-12 {
+          grid-area: part-12;
+          display: flex;
+          flex-direction: row;
+          gap: 0.1rem;
+          border-radius: 0.8rem;
+          background-color: rgb(244, 196, 169);
+          // width: 71%;
+          border-radius: 0.5rem;
+          .image {
+            display: flex;
+            flex-direction: row;
+            width: 40%;
+            height: 45%;
+            // background-color: red;
+            padding: 1rem 1rem;
+
+            img {
+              width: 100%;
+              border-radius: 0.5rem;
+            }
+          }
+          .text-div {
+            display: flex;
+            flex-direction: row;
+            width: 50%;
+            padding: 1rem 0rem;
+            .text {
+              width: fit-content;
+              display: flex;
+              flex-direction: column;
+              gap: 0.5rem;
+            }
+          }
+        }
+        .part-13 {
+          grid-area: part-13;
+          display: flex;
+          flex-direction: row;
+          gap: 0.1rem;
+          border-radius: 0.8rem;
+          background-color: rgb(220, 173, 249);
+          // width: 71%;
+          border-radius: 0.5rem;
+          .image {
+            display: flex;
+            flex-direction: row;
+            width: 40%;
+            height: 75%;
+            // background-color: red;
+            padding: 1rem 1rem;
+
+            img {
+              width: 100%;
+              border-radius: 0.5rem;
+            }
+          }
+          .text-div {
+            display: flex;
+            flex-direction: row;
+            width: 50%;
+            padding: 1rem 0rem;
+            .text {
+              width: fit-content;
+              display: flex;
+              flex-direction: column;
+              gap: 0.5rem;
+              p {
+                font-size: 1.2rem;
+              }
+              h6 {
+                font-size: 0.8rem;
+              }
+            }
+          }
+        }
+        .part-14 {
+          grid-area: part-14;
+          display: flex;
+          flex-direction: row;
+          gap: 0.1rem;
+          border-radius: 0.8rem;
+          background-color: rgb(244, 200, 123);
+          // width: 71%;
+          border-radius: 0.5rem;
+          .image {
+            display: flex;
+            flex-direction: row;
+            width: 40%;
+            height: 45%;
+            // background-color: red;
+            padding: 1rem 1rem;
+
+            img {
+              width: 100%;
+              border-radius: 0.5rem;
+            }
+          }
+          .text-div {
+            display: flex;
+            flex-direction: row;
+            width: 50%;
+            padding: 1rem 0rem;
+            .text {
+              width: fit-content;
+              display: flex;
+              flex-direction: column;
+              gap: 0.5rem;
+            }
+          }
+        }
+      }
+      /*Social media*/
+      .icons {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr); // 2 items per row
+        gap: 0.5rem 1rem; // row and column gaps
+        align-items: center;
+        justify-items: center;
+        justify-content: space-around;
+
+        .one,
+        .two,
+        .three,
+        .four,
+        .five {
+          display: flex; // image + text side by side
+          align-items: center;
+          gap: 0.5rem; // space between image and text
+
+          img {
+            width: 2rem;
+            height: auto;
+          }
+
+          p {
+            font-family: bold-font;
+            color: #000;
+          }
+        }
+        // Center the last item
+        .five {
+          grid-column: 1 / -1; // make it span across both columns
+          justify-content: center;
+        }
+      }
+    }
   }
 }
 @media (min-width: 1500px) {
@@ -1118,7 +2282,11 @@ main {
       .main {
         .content {
           h1 {
-            font-size: 4rem;
+            font-size: 5rem;
+          }
+          p {
+            font-size: 1.5rem;
+            opacity: 0.8;
           }
         }
         .video {
@@ -1212,116 +2380,116 @@ main {
       }
     }
     /*Outcomes section*/
-      .outcomes {
-        width: 100%;
+    .outcomes {
+      width: 100%;
+      display: flex;
+      flex-direction: row-reverse;
+      // align-items: center;
+      justify-content: center;
+      padding: 1rem 5rem;
+      gap: 2rem;
+      .text {
+        width: 50%;
         display: flex;
-        flex-direction: row-reverse;
-        // align-items: center;
-        justify-content: center;
-        padding: 1rem 5rem;
+        flex-direction: column;
         gap: 2rem;
-        .text {
-          width: 50%;
-          display: flex;
-          flex-direction: column;
-          gap: 2rem;
-          h2 {
-            font-size: 3rem;
-            color: #000;
-            font-family: bold-font;
-          }
-          .grid {
-            display: grid;
-            grid-template-columns: 1fr 1fr;
-            grid-template-rows: 1fr 1fr;
-            grid-template-areas:
-              "part-1 part-2"
-              "part-3 part-4"
-              "part-5 part-6";
-            gap: 2rem;
-            .part-1 {
-              grid-area: part-1;
-              h3 {
-                font-size: 2rem;
-                font-family: bold-font;
-              }
-              p {
-                font-size: 1.5rem;
-                padding: 0.6rem 0rem;
-              }
-            }
-            .part-2 {
-              grid-area: part-2;
-              h3 {
-                font-size: 2rem;
-                font-family: bold-font;
-              }
-              p {
-                font-size: 1.5rem;
-                padding: 0.6rem 0rem;
-              }
-            }
-            .part-3 {
-              grid-area: part-3;
-              h3 {
-                font-size: 2rem;
-                font-family: bold-font;
-              }
-              p {
-                font-size: 1.5rem;
-                padding: 0.6rem 0rem;
-              }
-            }
-            .part-4 {
-              grid-area: part-4;
-              h3 {
-                font-size: 2rem;
-                font-family: bold-font;
-              }
-              p {
-                font-size: 1.5rem;
-                padding: 0.6rem 0rem;
-              }
-            }
-            .part-5 {
-              grid-area: part-5;
-              h3 {
-                font-size: 2rem;
-                font-family: bold-font;
-              }
-              p {
-                font-size: 1.5rem;
-                padding: 0.6rem 0rem;
-              }
-            }
-            .part-6 {
-              grid-area: part-6;
-              h3 {
-                font-size: 2rem;
-                font-family: bold-font;
-              }
-              p {
-                font-size: 1.5rem;
-                padding: 0.6rem 0rem;
-              }
-            }
-          }
+        h2 {
+          font-size: 3rem;
+          color: #000;
+          font-family: bold-font;
         }
-        .image {
-          width: 50%;
-          background-image: url(./Images/section-1-background.webp);
-          background-position: center;
-          background-size: cover;
-          border-radius: 1rem;
-          figure {
-            width: 100%;
-            img {
-              width: 100%;
-              object-fit: cover;
-              border-radius: 1rem;
+        .grid {
+          display: grid;
+          grid-template-columns: 1fr 1fr;
+          grid-template-rows: 1fr 1fr;
+          grid-template-areas:
+            "part-1 part-2"
+            "part-3 part-4"
+            "part-5 part-6";
+          gap: 2rem;
+          .part-1 {
+            grid-area: part-1;
+            h3 {
+              font-size: 2rem;
+              font-family: bold-font;
+            }
+            p {
+              font-size: 1.5rem;
+              padding: 0.6rem 0rem;
+            }
+          }
+          .part-2 {
+            grid-area: part-2;
+            h3 {
+              font-size: 2rem;
+              font-family: bold-font;
+            }
+            p {
+              font-size: 1.5rem;
+              padding: 0.6rem 0rem;
+            }
+          }
+          .part-3 {
+            grid-area: part-3;
+            h3 {
+              font-size: 2rem;
+              font-family: bold-font;
+            }
+            p {
+              font-size: 1.5rem;
+              padding: 0.6rem 0rem;
+            }
+          }
+          .part-4 {
+            grid-area: part-4;
+            h3 {
+              font-size: 2rem;
+              font-family: bold-font;
+            }
+            p {
+              font-size: 1.5rem;
+              padding: 0.6rem 0rem;
+            }
+          }
+          .part-5 {
+            grid-area: part-5;
+            h3 {
+              font-size: 2rem;
+              font-family: bold-font;
+            }
+            p {
+              font-size: 1.5rem;
+              padding: 0.6rem 0rem;
+            }
+          }
+          .part-6 {
+            grid-area: part-6;
+            h3 {
+              font-size: 2rem;
+              font-family: bold-font;
+            }
+            p {
+              font-size: 1.5rem;
+              padding: 0.6rem 0rem;
             }
           }
         }
       }
+      .image {
+        width: 50%;
+        background-image: url(./Images/section-1-background.webp);
+        background-position: center;
+        background-size: cover;
+        border-radius: 1rem;
+        figure {
+          width: 100%;
+          img {
+            width: 100%;
+            object-fit: cover;
+            border-radius: 1rem;
+          }
+        }
+      }
+    }
   }
 }

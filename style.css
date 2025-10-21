@@ -40,6 +40,7 @@ main {
   /*Instructor section*/
   /*Learning section*/
   /*Outcomes section*/
+  /*Learning section*/
 }
 main header {
   width: 100%;
@@ -477,7 +478,7 @@ main .learn .grid .part-8 {
 main .learn .grid .part-8 h1 {
   font-size: 1.5rem;
   padding: 1rem 1rem;
-  font-family: bold-font;
+  font-family: ragular-font;
 }
 main .learn .grid .part-9 {
   width: 100%;
@@ -597,6 +598,537 @@ main .outcomes .image figure img {
      object-fit: cover;
   border-radius: 1rem;
 }
+main .global {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  padding: 1rem 1rem;
+  /*Social media*/
+}
+main .global .grid {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-areas: "part-1" "part-2" "part-3" "part-4" "part-5" "part-6" "part-7" "part-8" "part-9" "part-10" "part-11" "part-12" "part-13" "part-14";
+  gap: 1rem;
+}
+main .global .grid .part-1 {
+  display: flex;
+  flex-direction: row;
+  gap: 0.1rem;
+  grid-area: part-1;
+  border-radius: 0.8rem;
+  background-color: #85e68b;
+  border-radius: 0.5rem;
+}
+main .global .grid .part-1 .image {
+  display: flex;
+  flex-direction: row;
+  width: 40%;
+  height: 75%;
+  padding: 1rem 1rem;
+}
+main .global .grid .part-1 .image img {
+  width: 100%;
+  border-radius: 0.5rem;
+}
+main .global .grid .part-1 .text-div {
+  display: flex;
+  flex-direction: row;
+  width: 50%;
+  padding: 1rem 0rem;
+}
+main .global .grid .part-1 .text-div .text {
+  width: -moz-fit-content;
+  width: fit-content;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+main .global .grid .part-2 {
+  grid-area: part-2;
+  display: flex;
+  flex-direction: row;
+  gap: 0.1rem;
+  border-radius: 0.8rem;
+  background-color: #deff9a;
+  border-radius: 0.5rem;
+}
+main .global .grid .part-2 .image {
+  display: flex;
+  flex-direction: row;
+  width: 40%;
+  height: 75%;
+  padding: 1rem 1rem;
+}
+main .global .grid .part-2 .image img {
+  width: 100%;
+  border-radius: 0.5rem;
+}
+main .global .grid .part-2 .text-div {
+  display: flex;
+  flex-direction: row;
+  width: 50%;
+  padding: 1rem 0rem;
+}
+main .global .grid .part-2 .text-div .text {
+  width: -moz-fit-content;
+  width: fit-content;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+main .global .grid .part-2 .text-div .text h6 {
+  font-size: 0.9rem;
+}
+main .global .grid .part-3 {
+  grid-area: part-3;
+  display: flex;
+  flex-direction: row;
+  gap: 0.1rem;
+  border-radius: 0.8rem;
+  background-color: rgb(220, 173, 249);
+  border-radius: 0.5rem;
+}
+main .global .grid .part-3 .image {
+  display: flex;
+  flex-direction: row;
+  width: 40%;
+  height: 75%;
+  padding: 1rem 1rem;
+}
+main .global .grid .part-3 .image img {
+  width: 100%;
+  border-radius: 0.5rem;
+}
+main .global .grid .part-3 .text-div {
+  display: flex;
+  flex-direction: row;
+  width: 50%;
+  padding: 1rem 0rem;
+}
+main .global .grid .part-3 .text-div .text {
+  width: -moz-fit-content;
+  width: fit-content;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+main .global .grid .part-3 .text-div .text h6 {
+  font-size: 0.9rem;
+}
+main .global .grid .part-4 {
+  grid-area: part-4;
+  display: flex;
+  flex-direction: row;
+  gap: 0.1rem;
+  border-radius: 0.8rem;
+  background-color: rgb(229, 211, 255);
+  border-radius: 0.5rem;
+}
+main .global .grid .part-4 .image {
+  display: flex;
+  flex-direction: row;
+  width: 40%;
+  height: 35%;
+  padding: 1rem 1rem;
+}
+main .global .grid .part-4 .image img {
+  width: 100%;
+  border-radius: 0.5rem;
+}
+main .global .grid .part-4 .text-div {
+  display: flex;
+  flex-direction: row;
+  width: 50%;
+  padding: 1rem 0rem;
+}
+main .global .grid .part-4 .text-div .text {
+  width: -moz-fit-content;
+  width: fit-content;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+main .global .grid .part-4 .text-div .text p {
+  font-size: 1.2rem;
+}
+main .global .grid .part-4 .text-div .text h6 {
+  font-size: 1rem;
+}
+main .global .grid .part-5 {
+  grid-area: part-5;
+  display: flex;
+  flex-direction: row;
+  gap: 0.1rem;
+  border-radius: 0.8rem;
+  background-color: rgb(243, 77, 31);
+  border-radius: 0.5rem;
+}
+main .global .grid .part-5 .image {
+  display: flex;
+  flex-direction: row;
+  width: 40%;
+  padding: 1rem 1rem;
+}
+main .global .grid .part-5 .image img {
+  width: 100%;
+  border-radius: 0.5rem;
+}
+main .global .grid .part-5 .text-div {
+  display: flex;
+  flex-direction: row;
+  width: 50%;
+  padding: 1rem 0rem;
+}
+main .global .grid .part-5 .text-div .text {
+  width: -moz-fit-content;
+  width: fit-content;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+main .global .grid .part-5 .text-div .text p {
+  color: #fff;
+  font-size: 1.5rem;
+}
+main .global .grid .part-5 .text-div .text h6 {
+  color: #fff;
+  font-size: 0.8rem;
+}
+main .global .grid .part-6 {
+  grid-area: part-6;
+  display: flex;
+  flex-direction: row;
+  gap: 0.1rem;
+  border-radius: 0.8rem;
+  background-color: rgb(155, 223, 219);
+  border-radius: 0.5rem;
+}
+main .global .grid .part-6 .image {
+  display: flex;
+  flex-direction: row;
+  width: 40%;
+  height: 35%;
+  padding: 1rem 1rem;
+}
+main .global .grid .part-6 .image img {
+  width: 100%;
+  border-radius: 0.5rem;
+}
+main .global .grid .part-6 .text-div {
+  display: flex;
+  flex-direction: row;
+  width: 50%;
+  padding: 1rem 0rem;
+}
+main .global .grid .part-6 .text-div .text {
+  width: -moz-fit-content;
+  width: fit-content;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+main .global .grid .part-7 {
+  grid-area: part-7;
+  display: flex;
+  flex-direction: row;
+  gap: 0.1rem;
+  border-radius: 0.8rem;
+  background-color: rgb(150, 212, 112);
+  border-radius: 0.5rem;
+}
+main .global .grid .part-7 .image {
+  display: flex;
+  flex-direction: row;
+  width: 40%;
+  padding: 1rem 1rem;
+}
+main .global .grid .part-7 .image img {
+  width: 100%;
+  border-radius: 0.5rem;
+}
+main .global .grid .part-7 .text-div {
+  display: flex;
+  flex-direction: row;
+  width: 50%;
+  padding: 1rem 0rem;
+}
+main .global .grid .part-7 .text-div .text {
+  width: -moz-fit-content;
+  width: fit-content;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+main .global .grid .part-8 {
+  grid-area: part-8;
+  display: flex;
+  flex-direction: row;
+  gap: 0.1rem;
+  border-radius: 0.8rem;
+  background-color: rgb(243, 214, 130);
+  border-radius: 0.5rem;
+}
+main .global .grid .part-8 .image {
+  display: flex;
+  flex-direction: row;
+  width: 40%;
+  height: 35%;
+  padding: 1rem 1rem;
+}
+main .global .grid .part-8 .image img {
+  width: 100%;
+  border-radius: 0.5rem;
+}
+main .global .grid .part-8 .text-div {
+  display: flex;
+  flex-direction: row;
+  width: 50%;
+  padding: 1rem 0rem;
+}
+main .global .grid .part-8 .text-div .text {
+  width: -moz-fit-content;
+  width: fit-content;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+main .global .grid .part-9 {
+  grid-area: part-9;
+  display: flex;
+  flex-direction: row;
+  gap: 0.1rem;
+  border-radius: 0.8rem;
+  background-color: rgb(243, 214, 130);
+  border-radius: 0.5rem;
+}
+main .global .grid .part-9 .image {
+  display: flex;
+  flex-direction: row;
+  width: 40%;
+  padding: 1rem 1rem;
+}
+main .global .grid .part-9 .image img {
+  width: 100%;
+  border-radius: 0.5rem;
+}
+main .global .grid .part-9 .text-div {
+  display: flex;
+  flex-direction: row;
+  width: 50%;
+  padding: 1rem 0rem;
+}
+main .global .grid .part-9 .text-div .text {
+  width: -moz-fit-content;
+  width: fit-content;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+main .global .grid .part-10 {
+  grid-area: part-10;
+  display: flex;
+  flex-direction: row;
+  gap: 0.1rem;
+  border-radius: 0.8rem;
+  background-color: rgb(220, 173, 249);
+  border-radius: 0.5rem;
+}
+main .global .grid .part-10 .image {
+  display: flex;
+  flex-direction: row;
+  width: 40%;
+  padding: 1rem 1rem;
+}
+main .global .grid .part-10 .image img {
+  width: 100%;
+  border-radius: 0.5rem;
+}
+main .global .grid .part-10 .text-div {
+  display: flex;
+  flex-direction: row;
+  width: 50%;
+  padding: 1rem 0rem;
+}
+main .global .grid .part-10 .text-div .text {
+  width: -moz-fit-content;
+  width: fit-content;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+main .global .grid .part-11 {
+  grid-area: part-11;
+  display: flex;
+  flex-direction: row;
+  gap: 0.1rem;
+  border-radius: 0.8rem;
+  background-color: rgb(241, 163, 187);
+  border-radius: 0.5rem;
+}
+main .global .grid .part-11 .image {
+  display: flex;
+  flex-direction: row;
+  width: 40%;
+  padding: 1rem 1rem;
+}
+main .global .grid .part-11 .image img {
+  width: 100%;
+  border-radius: 0.5rem;
+}
+main .global .grid .part-11 .text-div {
+  display: flex;
+  flex-direction: row;
+  width: 50%;
+  padding: 1rem 0rem;
+}
+main .global .grid .part-11 .text-div .text {
+  width: -moz-fit-content;
+  width: fit-content;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+main .global .grid .part-12 {
+  grid-area: part-12;
+  display: flex;
+  flex-direction: row;
+  gap: 0.1rem;
+  border-radius: 0.8rem;
+  background-color: rgb(244, 196, 169);
+  border-radius: 0.5rem;
+}
+main .global .grid .part-12 .image {
+  display: flex;
+  flex-direction: row;
+  width: 40%;
+  padding: 1rem 1rem;
+}
+main .global .grid .part-12 .image img {
+  width: 100%;
+  border-radius: 0.5rem;
+}
+main .global .grid .part-12 .text-div {
+  display: flex;
+  flex-direction: row;
+  width: 50%;
+  padding: 1rem 0rem;
+}
+main .global .grid .part-12 .text-div .text {
+  width: -moz-fit-content;
+  width: fit-content;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+main .global .grid .part-13 {
+  grid-area: part-13;
+  display: flex;
+  flex-direction: row;
+  gap: 0.1rem;
+  border-radius: 0.8rem;
+  background-color: rgb(220, 173, 249);
+  border-radius: 0.5rem;
+}
+main .global .grid .part-13 .image {
+  display: flex;
+  flex-direction: row;
+  width: 40%;
+  height: 35%;
+  padding: 1rem 1rem;
+}
+main .global .grid .part-13 .image img {
+  width: 100%;
+  border-radius: 0.5rem;
+}
+main .global .grid .part-13 .text-div {
+  display: flex;
+  flex-direction: row;
+  width: 50%;
+  padding: 1rem 0rem;
+}
+main .global .grid .part-13 .text-div .text {
+  width: -moz-fit-content;
+  width: fit-content;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+main .global .grid .part-13 .text-div .text p {
+  font-size: 1.2rem;
+}
+main .global .grid .part-13 .text-div .text h6 {
+  font-size: 0.8rem;
+}
+main .global .grid .part-14 {
+  grid-area: part-14;
+  display: flex;
+  flex-direction: row;
+  gap: 0.1rem;
+  border-radius: 0.8rem;
+  background-color: rgb(244, 200, 123);
+  border-radius: 0.5rem;
+}
+main .global .grid .part-14 .image {
+  display: flex;
+  flex-direction: row;
+  width: 40%;
+  padding: 1rem 1rem;
+}
+main .global .grid .part-14 .image img {
+  width: 100%;
+  border-radius: 0.5rem;
+}
+main .global .grid .part-14 .text-div {
+  display: flex;
+  flex-direction: row;
+  width: 50%;
+  padding: 1rem 0rem;
+}
+main .global .grid .part-14 .text-div .text {
+  width: -moz-fit-content;
+  width: fit-content;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+main .global .icons {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 0.5rem 1rem;
+  align-items: center;
+  justify-items: start;
+}
+main .global .icons .one,
+main .global .icons .two,
+main .global .icons .three,
+main .global .icons .four,
+main .global .icons .five {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+main .global .icons .one img,
+main .global .icons .two img,
+main .global .icons .three img,
+main .global .icons .four img,
+main .global .icons .five img {
+  width: 2rem;
+  height: auto;
+}
+main .global .icons .one p,
+main .global .icons .two p,
+main .global .icons .three p,
+main .global .icons .four p,
+main .global .icons .five p {
+  font-family: bold-font;
+  color: #000;
+}
+main .global .icons .five {
+  grid-column: 1/-1;
+  justify-content: center;
+}
 
 /*Responsive starts here*/
 @media (min-width: 1000px) {
@@ -607,6 +1139,7 @@ main .outcomes .image figure img {
     /*Instructor section*/
     /*Learning section*/
     /*Outcomes section*/
+    /*Learning section*/
   }
   main header .main .content h1 {
     font-size: 4rem;
@@ -969,6 +1502,7 @@ main .outcomes .image figure img {
     font-size: 1.5rem;
     color: #000;
     font-family: bold-font;
+    text-align: center;
   }
   main .outcomes .text .grid {
     display: grid;
@@ -1059,6 +1593,546 @@ main .outcomes .image figure img {
        object-fit: cover;
     border-radius: 1rem;
   }
+  main .global {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 6rem 5rem;
+    /*Social media*/
+  }
+  main .global .grid {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-areas: "part-1 part-2 part-3" "part-4 part-4 part-5" "part-6 part-7 part-8" "part-6 part-9 part-8" "part-10 part-11 part-12" "part-13 part-13 part-14";
+    gap: 0.6rem;
+  }
+  main .global .grid .part-1 {
+    display: flex;
+    flex-direction: row;
+    gap: 0.1rem;
+    grid-area: part-1;
+    border-radius: 0.8rem;
+    background-color: #85e68b;
+    border-radius: 0.5rem;
+  }
+  main .global .grid .part-1 .image {
+    display: flex;
+    flex-direction: row;
+    width: 40%;
+    height: 75%;
+    padding: 1rem 1rem;
+  }
+  main .global .grid .part-1 .image img {
+    width: 100%;
+    border-radius: 0.5rem;
+  }
+  main .global .grid .part-1 .text-div {
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+    padding: 1rem 0rem;
+  }
+  main .global .grid .part-1 .text-div .text {
+    width: -moz-fit-content;
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+  main .global .grid .part-2 {
+    grid-area: part-2;
+    display: flex;
+    flex-direction: row;
+    gap: 0.1rem;
+    border-radius: 0.8rem;
+    background-color: #deff9a;
+    border-radius: 0.5rem;
+  }
+  main .global .grid .part-2 .image {
+    display: flex;
+    flex-direction: row;
+    width: 40%;
+    height: 75%;
+    padding: 1rem 1rem;
+  }
+  main .global .grid .part-2 .image img {
+    width: 100%;
+    border-radius: 0.5rem;
+  }
+  main .global .grid .part-2 .text-div {
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+    padding: 1rem 0rem;
+  }
+  main .global .grid .part-2 .text-div .text {
+    width: -moz-fit-content;
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+  main .global .grid .part-2 .text-div .text h6 {
+    font-size: 0.9rem;
+  }
+  main .global .grid .part-3 {
+    grid-area: part-3;
+    display: flex;
+    flex-direction: row;
+    gap: 0.1rem;
+    border-radius: 0.8rem;
+    background-color: rgb(220, 173, 249);
+    border-radius: 0.5rem;
+  }
+  main .global .grid .part-3 .image {
+    display: flex;
+    flex-direction: row;
+    width: 40%;
+    height: 75%;
+    padding: 1rem 1rem;
+  }
+  main .global .grid .part-3 .image img {
+    width: 100%;
+    border-radius: 0.5rem;
+  }
+  main .global .grid .part-3 .text-div {
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+    padding: 1rem 0rem;
+  }
+  main .global .grid .part-3 .text-div .text {
+    width: -moz-fit-content;
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+  main .global .grid .part-3 .text-div .text h6 {
+    font-size: 0.9rem;
+  }
+  main .global .grid .part-4 {
+    grid-area: part-4;
+    display: flex;
+    flex-direction: row;
+    gap: 0.1rem;
+    border-radius: 0.8rem;
+    background-color: rgb(229, 211, 255);
+    border-radius: 0.5rem;
+  }
+  main .global .grid .part-4 .image {
+    display: flex;
+    flex-direction: row;
+    width: 40%;
+    height: 75%;
+    padding: 1rem 1rem;
+  }
+  main .global .grid .part-4 .image img {
+    width: 100%;
+    border-radius: 0.5rem;
+  }
+  main .global .grid .part-4 .text-div {
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+    padding: 1rem 0rem;
+  }
+  main .global .grid .part-4 .text-div .text {
+    width: -moz-fit-content;
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+  main .global .grid .part-4 .text-div .text p {
+    font-size: 1.2rem;
+  }
+  main .global .grid .part-4 .text-div .text h6 {
+    font-size: 1rem;
+  }
+  main .global .grid .part-5 {
+    grid-area: part-5;
+    display: flex;
+    flex-direction: row;
+    gap: 0.1rem;
+    border-radius: 0.8rem;
+    background-color: rgb(243, 77, 31);
+    border-radius: 0.5rem;
+  }
+  main .global .grid .part-5 .image {
+    display: flex;
+    flex-direction: row;
+    width: 40%;
+    height: 45%;
+    padding: 1rem 1rem;
+  }
+  main .global .grid .part-5 .image img {
+    width: 100%;
+    border-radius: 0.5rem;
+  }
+  main .global .grid .part-5 .text-div {
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+    padding: 1rem 0rem;
+  }
+  main .global .grid .part-5 .text-div .text {
+    width: -moz-fit-content;
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+  main .global .grid .part-5 .text-div .text p {
+    color: #fff;
+    font-size: 1.5rem;
+  }
+  main .global .grid .part-5 .text-div .text h6 {
+    color: #fff;
+    font-size: 0.8rem;
+  }
+  main .global .grid .part-6 {
+    grid-area: part-6;
+    display: flex;
+    flex-direction: row;
+    gap: 0.1rem;
+    border-radius: 0.8rem;
+    background-color: rgb(155, 223, 219);
+    border-radius: 0.5rem;
+  }
+  main .global .grid .part-6 .image {
+    display: flex;
+    flex-direction: row;
+    width: 40%;
+    height: 35%;
+    padding: 1rem 1rem;
+  }
+  main .global .grid .part-6 .image img {
+    width: 100%;
+    border-radius: 0.5rem;
+  }
+  main .global .grid .part-6 .text-div {
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+    padding: 1rem 0rem;
+  }
+  main .global .grid .part-6 .text-div .text {
+    width: -moz-fit-content;
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+  main .global .grid .part-7 {
+    grid-area: part-7;
+    display: flex;
+    flex-direction: row;
+    gap: 0.1rem;
+    border-radius: 0.8rem;
+    background-color: rgb(150, 212, 112);
+    border-radius: 0.5rem;
+  }
+  main .global .grid .part-7 .image {
+    display: flex;
+    flex-direction: row;
+    width: 40%;
+    height: 45%;
+    padding: 1rem 1rem;
+  }
+  main .global .grid .part-7 .image img {
+    width: 100%;
+    border-radius: 0.5rem;
+  }
+  main .global .grid .part-7 .text-div {
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+    padding: 1rem 0rem;
+  }
+  main .global .grid .part-7 .text-div .text {
+    width: -moz-fit-content;
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+  main .global .grid .part-8 {
+    grid-area: part-8;
+    display: flex;
+    flex-direction: row;
+    gap: 0.1rem;
+    border-radius: 0.8rem;
+    background-color: rgb(243, 214, 130);
+    border-radius: 0.5rem;
+  }
+  main .global .grid .part-8 .image {
+    display: flex;
+    flex-direction: row;
+    width: 40%;
+    height: 35%;
+    padding: 1rem 1rem;
+  }
+  main .global .grid .part-8 .image img {
+    width: 100%;
+    border-radius: 0.5rem;
+  }
+  main .global .grid .part-8 .text-div {
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+    padding: 1rem 0rem;
+  }
+  main .global .grid .part-8 .text-div .text {
+    width: -moz-fit-content;
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+  main .global .grid .part-9 {
+    grid-area: part-9;
+    display: flex;
+    flex-direction: row;
+    gap: 0.1rem;
+    border-radius: 0.8rem;
+    background-color: rgb(243, 214, 130);
+    border-radius: 0.5rem;
+  }
+  main .global .grid .part-9 .image {
+    display: flex;
+    flex-direction: row;
+    width: 40%;
+    height: 45%;
+    padding: 1rem 1rem;
+  }
+  main .global .grid .part-9 .image img {
+    width: 100%;
+    border-radius: 0.5rem;
+  }
+  main .global .grid .part-9 .text-div {
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+    padding: 1rem 0rem;
+  }
+  main .global .grid .part-9 .text-div .text {
+    width: -moz-fit-content;
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+  main .global .grid .part-10 {
+    grid-area: part-10;
+    display: flex;
+    flex-direction: row;
+    gap: 0.1rem;
+    border-radius: 0.8rem;
+    background-color: rgb(220, 173, 249);
+    border-radius: 0.5rem;
+  }
+  main .global .grid .part-10 .image {
+    display: flex;
+    flex-direction: row;
+    width: 40%;
+    height: 45%;
+    padding: 1rem 1rem;
+  }
+  main .global .grid .part-10 .image img {
+    width: 100%;
+    border-radius: 0.5rem;
+  }
+  main .global .grid .part-10 .text-div {
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+    padding: 1rem 0rem;
+  }
+  main .global .grid .part-10 .text-div .text {
+    width: -moz-fit-content;
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+  main .global .grid .part-11 {
+    grid-area: part-11;
+    display: flex;
+    flex-direction: row;
+    gap: 0.1rem;
+    border-radius: 0.8rem;
+    background-color: rgb(241, 163, 187);
+    border-radius: 0.5rem;
+  }
+  main .global .grid .part-11 .image {
+    display: flex;
+    flex-direction: row;
+    width: 40%;
+    height: 45%;
+    padding: 1rem 1rem;
+  }
+  main .global .grid .part-11 .image img {
+    width: 100%;
+    border-radius: 0.5rem;
+  }
+  main .global .grid .part-11 .text-div {
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+    padding: 1rem 0rem;
+  }
+  main .global .grid .part-11 .text-div .text {
+    width: -moz-fit-content;
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+  main .global .grid .part-12 {
+    grid-area: part-12;
+    display: flex;
+    flex-direction: row;
+    gap: 0.1rem;
+    border-radius: 0.8rem;
+    background-color: rgb(244, 196, 169);
+    border-radius: 0.5rem;
+  }
+  main .global .grid .part-12 .image {
+    display: flex;
+    flex-direction: row;
+    width: 40%;
+    height: 45%;
+    padding: 1rem 1rem;
+  }
+  main .global .grid .part-12 .image img {
+    width: 100%;
+    border-radius: 0.5rem;
+  }
+  main .global .grid .part-12 .text-div {
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+    padding: 1rem 0rem;
+  }
+  main .global .grid .part-12 .text-div .text {
+    width: -moz-fit-content;
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+  main .global .grid .part-13 {
+    grid-area: part-13;
+    display: flex;
+    flex-direction: row;
+    gap: 0.1rem;
+    border-radius: 0.8rem;
+    background-color: rgb(220, 173, 249);
+    border-radius: 0.5rem;
+  }
+  main .global .grid .part-13 .image {
+    display: flex;
+    flex-direction: row;
+    width: 40%;
+    height: 75%;
+    padding: 1rem 1rem;
+  }
+  main .global .grid .part-13 .image img {
+    width: 100%;
+    border-radius: 0.5rem;
+  }
+  main .global .grid .part-13 .text-div {
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+    padding: 1rem 0rem;
+  }
+  main .global .grid .part-13 .text-div .text {
+    width: -moz-fit-content;
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+  main .global .grid .part-13 .text-div .text p {
+    font-size: 1.2rem;
+  }
+  main .global .grid .part-13 .text-div .text h6 {
+    font-size: 0.8rem;
+  }
+  main .global .grid .part-14 {
+    grid-area: part-14;
+    display: flex;
+    flex-direction: row;
+    gap: 0.1rem;
+    border-radius: 0.8rem;
+    background-color: rgb(244, 200, 123);
+    border-radius: 0.5rem;
+  }
+  main .global .grid .part-14 .image {
+    display: flex;
+    flex-direction: row;
+    width: 40%;
+    height: 45%;
+    padding: 1rem 1rem;
+  }
+  main .global .grid .part-14 .image img {
+    width: 100%;
+    border-radius: 0.5rem;
+  }
+  main .global .grid .part-14 .text-div {
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+    padding: 1rem 0rem;
+  }
+  main .global .grid .part-14 .text-div .text {
+    width: -moz-fit-content;
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+  main .global .icons {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 0.5rem 1rem;
+    align-items: center;
+    justify-items: center;
+    justify-content: space-around;
+  }
+  main .global .icons .one,
+  main .global .icons .two,
+  main .global .icons .three,
+  main .global .icons .four,
+  main .global .icons .five {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+  }
+  main .global .icons .one img,
+  main .global .icons .two img,
+  main .global .icons .three img,
+  main .global .icons .four img,
+  main .global .icons .five img {
+    width: 2rem;
+    height: auto;
+  }
+  main .global .icons .one p,
+  main .global .icons .two p,
+  main .global .icons .three p,
+  main .global .icons .four p,
+  main .global .icons .five p {
+    font-family: bold-font;
+    color: #000;
+  }
+  main .global .icons .five {
+    grid-column: 1/-1;
+    justify-content: center;
+  }
 }
 @media (min-width: 1500px) {
   main {
@@ -1066,7 +2140,11 @@ main .outcomes .image figure img {
     /*Outcomes section*/
   }
   main header .main .content h1 {
-    font-size: 4rem;
+    font-size: 5rem;
+  }
+  main header .main .content p {
+    font-size: 1.5rem;
+    opacity: 0.8;
   }
   main header .main .video {
     display: flex;
